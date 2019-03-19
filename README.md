@@ -1,4 +1,4 @@
 # avispat
 app para obtener cupones de descuento
 
-Es la primera app creada, y tiene consume servicio Web SOAP
+Es la primera app creada, y consume servicio Web SOAP
