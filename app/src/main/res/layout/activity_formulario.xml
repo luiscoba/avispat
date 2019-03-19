@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:duplicateParentState="false"
+    android:focusableInTouchMode="true"
+    tools:context="deployits.com.ec.avispa_t.activity.formulario.Formulario">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarManual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/tabIndicator"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:titleTextColor="@android:color/white">
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appbar">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appbar"
+            app:layout_constraintVertical_bias="1.0"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="353dp">
+
+            <TextView
+                android:id="@+id/indicacion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:singleLine="false"
+                android:text="@string/indicacion1"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/nombre"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="24dp"
+                android:text="@string/nombre"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/nombre"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/nombre"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <EditText
+                android:id="@+id/nombre"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:labelFor="@+id/nombre"
+                app:layout_constraintBottom_toTopOf="@+id/apellido"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.16"
+                app:layout_constraintStart_toEndOf="@+id/textView2" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/apellido"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/apellido"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/apellido"
+                app:layout_constraintVertical_bias="1.0" />
+
+
+            <EditText
+                android:id="@+id/apellido"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:labelFor="@+id/apellido"
+                app:layout_constraintBottom_toTopOf="@+id/cedula"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/textView5" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/cedula"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/cedula"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/cedula"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <EditText
+                android:id="@+id/cedula"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="10dp"
+                android:ems="10"
+                android:inputType="number"
+                android:labelFor="@+id/cedula"
+                app:layout_constraintBottom_toTopOf="@+id/spnFormaDePago"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.352"
+                app:layout_constraintStart_toEndOf="@+id/textView3" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="24dp"
+                android:text="@string/formaDepago"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/spnFormaDePago"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/spnFormaDePago"
+                app:layout_constraintVertical_bias="1.0" />
+
+
+            <Spinner
+                android:id="@+id/spnFormaDePago"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:layout_marginStart="24dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:spinnerMode="dialog"
+                app:layout_constraintBottom_toTopOf="@+id/correo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/textView13" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/correo"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/correo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/correo"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <EditText
+                android:id="@+id/correo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="10dp"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:labelFor="@+id/correo"
+                app:layout_constraintBottom_toTopOf="@+id/domicilio"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.176"
+                app:layout_constraintStart_toEndOf="@+id/textView1" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/domicilio"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/domicilio"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/domicilio"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <EditText
+                android:id="@+id/domicilio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="10dp"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:labelFor="@+id/domicilio"
+                android:singleLine="false"
+                app:layout_constraintBottom_toTopOf="@+id/cantidadParticipantes"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/textView4" />
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/numeroDeparticipantes"
+                app:layout_constraintBottom_toBottomOf="@+id/cantidadParticipantes"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/cantidadParticipantes"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/cantidadParticipantes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/cantidad"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/txtParticipantes"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.8"
+                app:layout_constraintStart_toEndOf="@+id/textView11" />
+
+            <TextView
+                android:id="@+id/txtParticipantes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="24dp"
+                android:text="@string/participantes"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/participantes"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/participantes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="24dp"
+                android:ems="10"
+                android:hint="@string/hintParticipantes"
+                android:inputType="textMultiLine"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="30dp"
+                android:paddingTop="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <Button
+                    android:id="@+id/cancelar"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:onClick="onClickCancelar"
+                    android:text="@string/cancelar"
+                    app:layout_constraintEnd_toStartOf="@+id/guardar"
+                    tools:layout_editor_absoluteY="395dp" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/guardar"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClickGuardar"
+                    android:text="@string/guardar"
+                    tools:layout_editor_absoluteX="204dp"
+                    tools:layout_editor_absoluteY="395dp" />
+
+            </LinearLayout>
+
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,218 @@
+<resources>
+    <string name="app_name">Avispa-t</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_establecimientos">Comercios</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="title_activity_formulario">Formulario</string>
+    <string name="title_activity_promociones">Cupones</string>
+    <string name="title_activity_notificaciones">Notificaciones</string>
+    <string name="title_activity_login">Log In</string>
+    <string name="title_activity_lista_de_cupones">Lista de cupones</string>
+    <string name="show_password">OCULTAR</string>
+    <string name="hide_password">MOSTRAR</string>
+    <string name="action_sign_in"> Iniciar sesión</string>
+    <string name="action_register">Registrarse</string>
+    <string name="action_settings">Configuración</string>
+    <string name="title_activity_preferencias">Configuración</string>
+    <string name="prompt_correo_electronico">Correo electrónico</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="prompt_repetir_password">Repetir contraseña</string>
+    <string name="action_create_sing">Crear cuenta</string>
+    <string name="image_welcome">Bienvenido</string>
+    <string name="pref_notificacion">Notificaciones</string>
+    <string name="pref_summ_notificacion">Activar busqueda de promociones cercanas</string>
+    <string name="pref_title_notificacion">Notificaciones push</string>
+
+    <!-- Strings related to login -->
+    <string name="imgAppPromo">imagen de la app promociones</string>
+    <string name="hintDocumento">documento de identidad</string>
+    <string name="hintPassword">password</string>
+    <string name="hintBuscar">Buscar...</string>
+    <string name="txtDocumento">Documento</string>
+    <string name="txtPassword">Password</string>
+    <string name="txtInicioSesion">Iniciar sesión</string>
+    <string name="errorDocumentoInvalido">Ingrese documento</string>
+    <string name="errorPasswordInvalido">Ingrese contraseña</string>
+    <string name="errorNombreInvalido">Ingrese nombre</string>
+    <string name="errorApellidoInvalido">Ingrese apellido</string>
+    <string name="errorEmailInvalido">Ingrese email</string>
+    <string name="errorGeneroInvalido">Ingrese género</string>
+
+    <string name="errorCampoRequerido">Este campo es requerido</string>
+    <string name="permisoRequerido">Se requiere permisos.</string>
+    <string name="txtOlvidasteContrasena">¿Olvidaste tu contraseña?</string>
+
+    <!-- Strings related to registro -->
+    <string name="txtRegDocumento">Documento</string>
+    <string name="txtRegEmail">Email</string>
+    <string name="txtRegNombre">Nombre</string>
+    <string name="txtRegApellido">Apellido</string>
+    <string name="txtRegLugarResidencia">Lugar de Residencia</string>
+    <string name="txtRegFechaNacimiento">Fecha de nacimiento</string>
+    <string name="txtNumeroCelular">Número de celular</string>
+    <string name="txtSexoMasculino">Hombre</string>
+    <string name="txtSexoFemenino">Mujer</string>
+    <string name="ingNombreApellido">¿Como te llamas?</string>
+    <string name="ingFechaNacimiento">¿Cuándo naciste?</string>
+    <string name="ingNumeroCelular">Ingresa tu número de celular</string>
+    <string name="ingPassword">Escribe una contraseña</string>
+    <string name="ingDocumento">Ingresa documento de identidad</string>
+    <string name="ingEmail">Ingresa tu dirección de correo electrónico</string>
+    <string name="SelectGenero">¿Eres hombre o mujer?</string>
+    <string name="visible">visible</string>
+
+    <!-- Strings related to Recupera tu cuenta -->
+    <string name="txtIngresaDocumento">Documento</string>
+    <string name="msnRecuperarCuenta">Para resetear tu contraseña, introduce el correo asociado a tu cuenta: </string>
+    <string name="txtIngresaCorreo">Correo electrónico</string>
+    <string name="btnRecuperaCuenta">ENVIAR</string>
+
+    <!-- Strings related to Recupera tu cuenta -->
+    <string name="imgPrueba">imageView</string>
+
+    <!-- Strings related to Establecimientos(Sucursal Matriz) -->
+    <string name="imgFavoritos">Agregar a favoritos</string>
+    <string name="imgEstablecimiento">Imagen del establecimiento</string>
+    <string name="infEligeTuCategoria">Elige tus categorias favoritas</string>
+    <string name="infListo">¡ Listo !</string>
+    <string name="infNombreEmpresa">Nombre Empresa</string>
+    <string name="infDireccionEmpresa">Dirección Empresa</string>
+    <string name="infTelefonoEmpresa">Teléfono Empresa</string>
+    <string name="txtComercio">Comercio:</string>
+    <string name="txtTelefono">Telf: </string>
+    <string name="txtDireccion">Dir: </string>
+
+    <!-- Strings related to Establecimientos(Sucursal Matriz) -->
+    <string name="imgFavoritoPromocion">Agregar a promociones</string>
+    <string name="imgPromocion">Imagen de promocion</string>
+
+    <!-- Strings related to Promocion -->
+    <string name="title_activity_detalle_cupon">Detalle de cupón de descuento</string>
+    <string name="infTitulo">Titulo de la promocion</string>
+    <string name="infDetalle">Detalle de la promocion</string>
+    <string name="infCantidad">cantidad</string>
+    <string name="txtCompradores">Compradores</string>
+    <string name="infCodigoPromo">Codigo de la promocion</string>
+    <string name="txtCodigoPromo">Código: </string>
+    <string name="infValidoHasta">Válido hasta </string>
+    <string name="txtValidoHasta">Válido hasta el </string>
+    <string name="txtUnEspacio"></string>
+    <string name="infValorTotal">ValorTotal</string>
+    <string name="txtValorTotal">Valor Total: </string>
+    <string name="ValTotSub"><s>total</s></string>
+    <string name="infValorDescuento">ValorDeDescuento</string>
+    <string name="txtValorDescuento">Valor de descuento: </string>
+    <string name="ValDescSub"><s>desc.</s></string>
+    <string name="formaDepago">Forma de pago</string>
+    <string name="infFormasDepago">Formas de pago</string>
+    <string name="txtFormasDepago">Formas de pago: </string>
+    <string name="infPorcentajeDescuento">porcDesc</string>
+    <string name="txtPorcentajeDescuento"> % de descuento</string>
+    <string name="dolar">$</string>
+    <string name="dolarSub"><s>$</s></string>
+    <string name="prodCon">Ud. gana </string>
+    <string name="btnGeneraCupon">GENERAR CUPÓN</string>
+
+    <!-- Strings related to MainActivity -->
+    <!-- Toolbar -->
+    <string name="tabPromocionesFavoritas">Favoritas</string>
+    <string name="tabTodosLosComercios">Comercios</string>
+    <string name="menuAcercaDe">Acerca de</string>
+    <string name="menuBuscar">busqueda</string>
+
+    <!-- Main Activity -->
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_notificaciones">Notificaciones</string>
+    <string name="title_activity_splash">Avispa-t</string>
+    <string name="title_activity_main">Avispa-t</string>
+    <string name="title_activity_Inicio">Avispa-t</string>
+    <string name="tab3">Tab3</string>
+    <string name="tab1">COMERCIOS</string>
+    <string name="tab2">CUPONES</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="hola">Hola</string>
+
+    <string name="inicio">inicio</string>
+
+    <!-- fragment_nueva_clave -->
+    <string name="txtContrasena">Nueva contraseña</string>
+    <string name="txtRepetirContrasena">Repetir nueva contraseña</string>
+    <string name="msnIngresoContrasenasNuevas">Ingrese nueva contraseña:</string>
+    <string name="ok">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="title_activity_recuperar_cuenta">Reestablecer contraseña</string>
+
+    <string name="title_activity_comercios_favoritos">Comercios favoritos</string>
+    <string name="title_activity_categorias">Categorias</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- nav header main-->
+    <string name="imgViewFotoUsuario">foto de usuario</string>
+    <string name="txtvBienvenido">¡Bienvenido!</string>
+    <string name="txtvLema">¡Te ofrecemos cupones de descuento!</string>
+    <string name="iconNotifica">Notificaciones</string>
+
+    <!-- notificaciones -->
+    <string name="msnCorreoEnviado">!Correo enviado¡</string>
+    <string name="msnDetalleCorreoEnviado">Te hemos enviado un correo con instrucciones para poder recuperar tu contraseña</string>
+    <string name="btnOk">   Ok   </string>
+    <string name="msnIniciadoSesion">Has iniciado sesión</string>
+    <string name="logIng">Iniciar sesión</string>
+
+    <string name="presione_de_nuevo">Presione de nuevo para salir</string>
+
+    <!-- formulario -->
+    <string name="indicacion1">Verifique los datos para la generación de la factura:</string>
+    <string name="indicacion2">Puede actualizar la informacion:</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="correo">Correo</string>
+    <string name="cedula">Cédula</string>
+    <string name="domicilio">Domicilio</string>
+    <string name="guardar">Guardar</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="numeroDeparticipantes">Número de participantes:</string>
+    <string name="participantes">Ingrese el numero de participantes separado por coma (,):</string>
+
+    <string name="hintParticipantes">luis coba, erika velez, lucia mendes</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="error_nombre">Nombre en blanco</string>
+    <string name="error_apellido">Apellido en blanco</string>
+    <string name="cedula_blanco">Cedula en blanco</string>
+    <string name="cedula_incorrecta">Cedula incorrecta</string>
+    <string name="error_domicilio">Domicilio en blanco</string>
+    <string name="error_participantes">Ingrese participantes</string>
+
+    <string name="infNombreCategoria">NombreCategoria</string>
+    <string name="infNombreSucursal">Nombre_sucursal</string>
+
+    <string name="leyendo_espere">LEYENDO ESPERE ...</string>
+    <string name="operacion_cancelada">Operacion cancelada</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="cargando_mapa">Cargando Mapa...</string>
+    <string name="espere">Espere ....</string>
+    <string name="mapa">Ver Mapa</string>
+    <string name="cambiar_tipo_mapa">Cambiar tipo</string>
+    <string name="adicionar_lugares">Adicionar lugares</string>
+    <string name="seleccione_tipo_mapa">Seleccione el tipo</string>
+    <string name="clean_m">Limpiar</string>
+
+    <string name="donde_usarlo">Donde usarlo</string>
+
+    <string name="msnSinConexion">No hay conexión a internet.</string>
+    <string name="btnIrWiFi">Comprueba tus ajustes</string>
+
+    <!-- canal de notificacion -->
+    <string name="channel_name">my channel 01</string>
+    <string name="channel_description">descripcion de channel 01</string>
+
+
+    <string name="msnDeseaPromocionesCercanas">¿Desea que avispa-t le muestre promociones cercanas?</string>
+
+</resources>
